@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Managing_Activities</string>
+    <string name="helloworld">Hello World</string>
+    <string name="clickbutton">Click Me..!!</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="taskTitle">Task Title</string>
+    <string name="taskTime">Task Time</string>
+    <string name="taskPriority">Task Priority</string>
+    <string name="taskTag">Task</string>
+    <string name="taskDate">Task Date</string>
+    <string name="taskNumb">taskNumb</string>
+    <string name="buttonText" />
+    <string name="radioLow">low</string>
+    <string name="radioMedium">medium</string>
+    <string name="radioHigh">High</string>
+    <string name="priorityTag">Priority</string>
+    <string name="Time">Hint</string>
+    <string name="Date">Date</string>
+    <string name="Title">Title</string>
+    <string name="timeHint">Time</string>
+    <string name="button">Save</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InClass04</string>
+    <string name="textViewPassword">Select Passwords Count :</string>
+    <string name="showPassProgress" />
+    <string name="textViewLength">Select Passwords length :</string>
+    <string name="textViewLengthProgress" />
+    <string name="textViewGenPassword">Password:</string>
+    <string name="buttonThread">Generate Passwords (Thread)</string>
+    <string name="buttonAsync">Generate Passwords (Async Task)</string>
+    <string name="Launcher">Welcome to the Password Generator Application</string>
+</resources>

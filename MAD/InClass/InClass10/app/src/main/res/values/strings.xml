@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">InClass10</string>
+    <string name="editTextLoginEmail" />
+    <string name="hintLoginEmail">Email</string>
+    <string name="editTextLoginPassword" />
+    <string name="hintLoginPassword">Password</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonSignUp">Sign Up</string>
+    <string name="signupFName" />
+    <string name="signupLName" />
+    <string name="signupEmail" />
+    <string name="signupPassword" />
+    <string name="signupRPassword" />
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonToSignUp">Sign Up</string>
+    <string name="preferences_file_key">key</string>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hello App</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_label">Click Me</string>
+    <string name="mylabel">Me New Label</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="ButtonOK">OK</string>
+    <string name="ButtonCancel">Cancel</string>
+    <string name="buttonOther">Other</string>
+
+    <string-array name="colors_array">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InClass07</string>
+    <string name="textViewArticlePublishedAt" />
+    <string name="textViewArticleTitle" />
+    <string name="textViewDescription" />
+    <string name="textViewPublishedAt" />
+    <string name="textViewTitle" />
+</resources>

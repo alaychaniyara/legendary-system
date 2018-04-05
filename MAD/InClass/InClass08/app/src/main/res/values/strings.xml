@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">InClass08</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="editTextName" />
+    <string name="editTextEmail" />
+
+    <string name="TextViewDepartment">Department:</string>
+    <string name="radioButtonSIS">SIS</string>
+    <string name="radioButtonCS">CS</string>
+    <string name="radioButtonBIO">BIO</string>
+    <string name="radioButtonOthers">Others</string>
+    <string name="textViewMood">Your Current Mood:</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="student_information">Student Information</string>
+    <string name="name">Name :</string>
+    <string name="email">Email :</string>
+    <string name="department">Department :</string>
+    <string name="mood">Mood :</string>
+    <string name="my_name" />
+    <string name="my_email" />
+    <string name="my_department" />
+    <string name="my_mood" />
+    <string name="buttonSave">Save</string>
+    <string name="textViewEditInfo">Edit Information</string>
+</resources>

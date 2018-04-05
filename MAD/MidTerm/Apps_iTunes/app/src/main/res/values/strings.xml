@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Apps_iTunes</string>
+    <string name="textViewGenre">Genre:</string>
+    <string name="textViewGenreDisplay" />
+    <string name="textViewArticleTitle" />
+    <string name="textViewArticlePublishedAt" />
+    <string name="AppsName" />
+    <string name="ArtistName" ></string>
+    <string name="textViewArtist" />
+    <string name="textViewDate" />
+    <string name="textViewGenres" />
+    <string name="appTitle" />
+    <string name="textVIewGenre" />
+    <string name="artistName" />
+    <string name="textViewCopyRight" />
+    <string name="textViewRDate" />
+</resources>

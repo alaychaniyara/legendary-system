@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uncc.myapplication.CreateActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/Title"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:ems="10"
+        android:hint="@string/Date"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTitle" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:ems="10"
+        android:hint="@string/timeHint"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/priorityTag"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="183dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTime">
+
+        <RadioButton
+            android:id="@+id/radioButtonHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="@string/radioHigh"
+            app:layout_constraintBottom_toTopOf="@+id/radioButtonMedium"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="@string/radioMedium"
+            android:checked="true"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="358dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="@string/radioLow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButtonMedium" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="516dp"
+        android:text="@string/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Save" />/>
+
+</android.support.constraint.ConstraintLayout>

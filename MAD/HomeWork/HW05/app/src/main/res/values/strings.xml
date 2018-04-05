@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">InClass10</string>
+    <string name="hintLoginEmail">Email</string>
+    <string name="hintLoginPassword">Password</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonSignUp">Sign Up</string>
+    <string name="signupFname">First Name</string>
+    <string name="signupLname">Last Name</string>
+    <string name="signupEmail" />
+    <string name="signupPassword">Password</string>
+    <string name="signupRPassword">Repeat Password</string>
+    <string name="buttonCancel" />
+    <string name="editTextLoginEmail" />
+    <string name="signupLName" />
+    <string name="editTextLoginPassword" />
+    <string name="preference_file_key">808</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="currentThreads">Current Threads</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentsDemo</string>
+    <string name="title_third_activity">Third Activity</string>
+    <string name="title_second_activity">Second Activity</string>
+</resources>

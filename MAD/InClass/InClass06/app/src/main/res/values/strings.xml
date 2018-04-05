@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InClass06</string>
+    <string name="searchKeyword" />
+    <string name="go">Go</string>
+    <string name="buttonPrev" />
+    <string name="buttonNext" />
+    <string name="textViewImageID" />
+    <string name="textViewTitle" />
+    <string name="textViewPublishedAt" />
+    <string name="textViewDescription" />
+</resources>

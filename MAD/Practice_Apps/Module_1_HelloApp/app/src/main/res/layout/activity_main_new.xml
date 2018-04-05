@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonOK" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonCancel" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/buttonRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Red" />
+
+        <RadioButton
+            android:id="@+id/buttonGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Green" />
+
+        <RadioButton
+            android:id="@+id/buttonBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Blue" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/checkedcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Checked Color" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewProgress"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="TextView" />
+
+</LinearLayout>

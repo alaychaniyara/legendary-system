@@ -1,0 +1,59 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Newsapi",
+		"_postman_id": "a3f8e02c-8c8f-d040-ad89-a625c19f5fb0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sources API",
+			"request": {
+				"url": "https://newsapi.org/v1/sources",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Articles API",
+			"request": {
+				"url": {
+					"raw": "https://newsapi.org/v1/articles?source=bbc-news&apiKey=ENTER YOUR API KEY HERE !!",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v1",
+						"articles"
+					],
+					"query": [
+						{
+							"key": "source",
+							"value": "bbc-news",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "apiKey",
+							"value": "ENTER YOUR API KEY HERE !!",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
